@@ -13,34 +13,96 @@ document.addEventListener('DOMContentLoaded', () => {
   const wishlist = [];
   let goodsBasket = {};
 
-  const loading = () => {
-    goodsWrapper.innerHTML = `<div id="spinner"><div class="spinner-loading">
+  const loading = (nameFunction) => {
+    const spinner = `<div id="spinner"><div class="spinner-loading">
     <div><div><div></div></div><div><div></div></div><div><div></div></div>
-    <div><div></div></div></div></div></div>`
-  }
+    <div><div></div></div></div></div></div>`;
 
+    if (nameFunction === 'renderCard') {
+      goodsWrapper.innerHTML = spinner;
+    };
+
+    if (nameFunction === 'renderBasket') {
+      cartWrapper.innerHTML = spinner;
+    };
+  };
+
+  // запрос на сервер
+  const getGoods = (handler, filter) => {
+    loading(handler.name);
+    fetch('db/db.json')
+      .then(response => response.json())
+      .then(filter)
+      .then(handler);
+  };
+
+  // генерация карточек
 
   const createCardGoods = (id, title, price, img) => {
     const card = document.createElement('div');
     card.className = 'card-wrapper col-12 col-md-6 col-lg-4 col-xl-3 pb-3';
-    card.innerHTML = `<div class="card">
-                        <div class="card-img-wrapper">
-                          <img class="card-img-top" src="${img}" alt="">
-                          <button class="card-add-wishlist ${wishlist.includes(id) ? 'active' : ''}"
-                                  data-goods-id="${id}"></button>
-                        </div>
-                        <div class="card-body justify-content-between">
-                          <a href="#" class="card-title">${title}</a>
-                          <div class="card-price">${price} ₽</div>
-                          <div>
-                            <button class="card-add-cart"
-                                    data-goods-id="${id}">Добавить в корзину</button>
-                          </div>
-                        </div>
-                      </div>`;
+    card.innerHTML = `
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img class="card-img-top" src="${img}" alt="">
+        <button class="card-add-wishlist ${wishlist.includes(id) ? 'active' : ''}"
+                data-goods-id="${id}"></button>
+      </div>
+      <div class="card-body justify-content-between">
+        <a href="#" class="card-title">${title}</a>
+        <div class="card-price">${price} ₽</div>
+        <div>
+          <button class="card-add-cart"
+                  data-goods-id="${id}">Добавить в корзину</button>
+        </div>
+      </div>
+    </div>`;
     return card;
 
   };
+
+    // создание товаров корзины 
+
+    const createCardGoodsBasket = (id, title, price, img) => {
+      const card = document.createElement('div');
+      card.className = 'goods';
+      card.innerHTML = `
+      <div class="goods-img-wrapper">
+        <img class="goods-img" src="${img}" alt="">
+      </div>
+      <div class="goods-description">
+        <h2 class="goods-title">${title}</h2>
+        <p class="goods-price">${price} ₽</p>
+      </div>
+      <div class="goods-price-count">
+        <div class="goods-trigger">
+          <button class="goods-add-wishlist ${wishlist.includes(id) ? 'active' : ''}"
+            data-goods-id="${id}"></button>
+          <button class= "goods-delete" data-goods-id="${id}"></button>
+        </div>
+        <div class="goods-count">${goodsBasket[id]}</div>
+      </div>`;
+      return card;
+  
+    };
+
+    // калькуляция
+    const calcTotalPrice = goods => {
+      let sum = goods.reduce( (accum, item) => {
+        return accum + item.price * goodsBasket[item.id];
+      }, 0);
+      // for (const item of goods) {
+      //    sum += item.price * goodsBasket[item.id];
+      // }
+      cart.querySelector('.cart-total>span').textContent = sum.toFixed(2);
+    };
+  
+    const checkCount = () => {
+      wishlistCounter.textContent = wishlist.length;
+      cartCounter.textContent = Object.keys(goodsBasket).length;
+    };
+
+    // рендеры
 
   const renderCard = (goods) => {
     goodsWrapper.textContent = '';
@@ -51,29 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {goodsWrapper.textContent = 'Извините, мы не нашли товаров по вашему запросу!'}
   };
 
-  // создание товаров корзины 
 
-  const createCardGoodsBasket = (id, title, price, img) => {
-    const card = document.createElement('div');
-    card.className = 'goods';
-    card.innerHTML = `<div class="goods-img-wrapper">
-                        <img class="goods-img" src="${img}" alt="">
-                      </div>
-                      <div class="goods-description">
-                        <h2 class="goods-title">${title}</h2>
-                        <p class="goods-price">${price} ₽</p>
-                      </div>
-                      <div class="goods-price-count">
-                        <div class="goods-trigger">
-                          <button class="goods-add-wishlist ${wishlist.includes(id) ? 'active' : ''}" 
-                           data-goods-id="${id}></button>
-                          <button class="goods-delete" data-goods-id="${id}></button>
-                        </div>
-                        <div class="goods-count">1</div>
-                      </div>`;
-    return card;
-
-  };
 
   const renderBasket = (goods) => {
     cartWrapper.textContent = '';
@@ -98,10 +138,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    console.log(event.keyCode)
   };
 
-  const showCardBasket = goods => goods.filter(item => goodsBasket.hasOwnProperty(item.id));
+
+  const showCardBasket = goods => {
+      const basketGoods = goods.filter(item => goodsBasket.hasOwnProperty(item.id));
+      calcTotalPrice(basketGoods);
+      return basketGoods;
+      //goods.filter(item => goodsBasket.hasOwnProperty(item.id));
+    };
 
   const openCart = () => {
     event.preventDefault();
@@ -110,13 +155,6 @@ document.addEventListener('DOMContentLoaded', () => {
     getGoods(renderBasket, showCardBasket);
   };
 
-  const getGoods = (handler, filter) => {
-    loading();
-    fetch('db/db.json')
-      .then(response => response.json())
-      .then(filter)
-      .then(handler);
-  };
 
   const randomSort = (item) => item.sort(() => Math.random() -0.5);
 
@@ -125,8 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const target = event.target;
 
     if (target.classList.contains('category-item')) {
-      const category = target.dataset.category;
-      getGoods(renderCard, goods => goods.filter(item => item.category.includes(category)));
+      const cat = target.dataset.category;
+      getGoods(renderCard, goods => goods.filter(item => item.category.includes(cat)));
     }
   };
 
@@ -156,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const cookieQuery = get => {
     if (get) {
       if (getCookie('goodsBasket')){
-        goodsBasket = JSON.parse(getCookie('goodsBasket'));
+          Object.assign(goodsBasket,JSON.parse(getCookie('goodsBasket')));
       }
       checkCount();
     } else {
@@ -164,16 +202,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  const checkCount = () => {
-    wishlistCounter.textContent = wishlist.length;
-    cartCounter.textContent = Object.keys(goodsBasket).length;
-  }
+
 
   const storageQuery = get => {
 
     if (get) {
       if (localStorage.getItem('wishlist')) {
-        JSON.parse(localStorage.getItem('wishlist')).forEach(id => wishlist.push(id));
+        wishlist.splice(0, 0, ...JSON.parse(localStorage.getItem('wishlist')));
+        //JSON.parse(localStorage.getItem('wishlist')).forEach(id => wishlist.push(id));
       }
       checkCount();
     } else {
@@ -214,14 +250,32 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     if (target.classList.contains('card-add-cart')) {
-      addBasket(target.dataset.goodsId);
-    }
+         addBasket(target.dataset.goodsId);
+    };
+  };
 
+  const removeGoods = id => {
+    delete goodsBasket[id];
+    checkCount();
+    cookieQuery();
+    getGoods(renderBasket, showCardBasket);
+  };
 
-  }
+  const handlerBasket = event => {
+    const target = event.target;
+
+    if (target.classList.contains('goods-add-wishlist')) {
+        toggleWishlist(target.dataset.goodsId, target);
+    };
+
+    if (target.classList.contains('goods-delete')) {
+        removeGoods(target.dataset.goodsId);
+    };
+
+  };
 
   const showWishlist = () => {
-    getGoods(renderCard, goods => goods.filter(item => wishlist.includes(item.id)))
+      getGoods(renderCard, goods => goods.filter(item => wishlist.includes(item.id)))
   };
 
   cartBtn.addEventListener('click', openCart);
@@ -229,11 +283,21 @@ document.addEventListener('DOMContentLoaded', () => {
   category.addEventListener('click', choiceCategory);
   search.addEventListener('submit', searchGoods);
   goodsWrapper.addEventListener('click', handlerGoods);
-  wishlistBtn.addEventListener('click', showWishlist)
+  cartWrapper.addEventListener('click', handlerBasket);
+  wishlistBtn.addEventListener('click', showWishlist);
 
   getGoods(renderCard, randomSort);
 
   storageQuery(true);
   cookieQuery(true);
 
-});
+}); 
+
+
+
+
+
+
+
+
+
