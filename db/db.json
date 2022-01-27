@@ -264,25 +264,4 @@
     "imgMin": "db/img-mini/sport/24K-Gold-Playing-Cards-Poker-Game-Deck-Gold-Foil-Poker-Set-Plastic-Magic-Card-Waterproof-Cards.jpg_220x220xz.jpg",
     "imgCart": "db/img-card/sport/24K-Gold-Playing-Cards-Poker-Game-Deck.jpg",
     "price": 183.07
-}, {
-    "id": "202059",
-    "category": ["dalboeb"],
-    "title": "Кунимен обычный, любит куриное гавно",
-    "imgMin": "db/img-mini/kotakbassovskie/WhatsApp Image 2020-01-26 at 00.26.02.jpeg",
-    "imgCart": "db/img-card/kotakbassovskie/WhatsApp Image 2020-01-26 at 00.26.02.jpeg",
-    "price": 1499
-}, {
-    "id": "202060",
-    "category": ["dalboeb"],
-    "title": "Пердун необыкновенный, может пердеть целый день",
-    "imgMin": "db/img-mini/kotakbassovskie/WhatsApp Image 2020-01-26 at 00.27.15.jpeg",
-    "imgCart": "db/img-card/kotakbassovskie/WhatsApp Image 2020-01-26 at 00.27.15.jpeg",
-    "price": 1999
-}, {
-    "id": "202061",
-    "category": ["dalboeb"],
-    "title": "Секс игрушка для мальчиков",
-    "imgMin": "db/img-mini/kotakbassovskie/1.jpeg",
-    "imgCart": "db/img-card/kotakbassovskie/1.jpeg",
-    "price":2999
 }]
