@@ -115,6 +115,113 @@
     "id": 822,
     "date": "27.04.2020 16:06:04",
     "name": "Острый салат с бараниной",
-    "description": "Обжаренное филе баранины в соусе, деми
- }
+    "description": "глас, перец цветной и стручковый,черри, сельдерей, редиска,огурцы свежие, лист салата, соус табаско, масло кунжтное\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 323,
+    "image_app": "https://peretz-group.ru/upload/iblock/4af/4afa231cebfa8c880bde85ebf113ea7d.png",
+    "image": "https://peretz-group.ru/upload/iblock/4af/4afa231cebfa8c880bde85ebf113ea7d.png",
+    "sort": 500
+  },
+  {
+    "id": 821,
+    "date": "27.04.2020 16:05:41",
+    "name": "ЧАБАН салат",
+    "description": "Сыр овечий, редиска, огурцы свежие, сельдерей, лук красный, зеленый, базилик свежий, кинза, перец цветной, помидор розовый\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 323,
+    "image_app": "https://peretz-group.ru/upload/iblock/b44/b441d511f03488fbde223215f4fe1380.png",
+    "image": "https://peretz-group.ru/upload/iblock/b44/b441d511f03488fbde223215f4fe1380.png",
+    "sort": 500
+  },
+  {
+    "id": 819,
+    "date": "27.04.2020 16:04:38",
+    "name": "Салат с сыром Сулугуни",
+    "description": "Сыр сулугуни, куриная грудка, черри, лист романо, черри, соус горчичный\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 303,
+    "image_app": "https://peretz-group.ru/upload/iblock/9db/9dbf408331b74bfd709279278c9f2210.png",
+    "image": "https://peretz-group.ru/upload/iblock/9db/9dbf408331b74bfd709279278c9f2210.png",
+    "sort": 500
+  },
+  {
+    "id": 818,
+    "date": "27.04.2020 16:04:16",
+    "name": "Салат с пикантной курочкой",
+    "description": "Куриная грудка собственного запечения, микс зелени, лист романо, черри, соус горчичный\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 293,
+    "image_app": "https://peretz-group.ru/upload/iblock/769/769e093cf9a2e1ae6ae2d5361e70e651.png",
+    "image": "https://peretz-group.ru/upload/iblock/769/769e093cf9a2e1ae6ae2d5361e70e651.png",
+    "sort": 500
+  },
+  {
+    "id": 817,
+    "date": "27.04.2020 16:03:52",
+    "name": "Салат со свеклой",
+    "description": "Свекла запеченная, микс зелени, сыр моцарелла, чеснок\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 228,
+    "image_app": "https://peretz-group.ru/upload/iblock/6b4/6b48bcfdb3a0154920d0e7376cae621c.png",
+    "image": "https://peretz-group.ru/upload/iblock/6b4/6b48bcfdb3a0154920d0e7376cae621c.png",
+    "sort": 500
+  },
+  {
+    "id": 816,
+    "date": "27.04.2020 16:03:23",
+    "name": "Салат с бакинсикими помидорами",
+    "description": "Черри, лук красный сладкий, сыр брынза, микс зелени, соус наршараб\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 273,
+    "image_app": "https://peretz-group.ru/upload/iblock/6ba/6ba655846e79892e320499d9a9b4ec87.png",
+    "image": "https://peretz-group.ru/upload/iblock/6ba/6ba655846e79892e320499d9a9b4ec87.png",
+    "sort": 500
+  },
+  {
+    "id": 815,
+    "date": "27.04.2020 16:03:02",
+    "name": "Гурия",
+    "description": "Телятина копченая, филе куриное, помидоры конкассе, огурцы свежие, перец цветной, лук зеленый\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 273,
+    "image_app": "https://peretz-group.ru/upload/iblock/0f8/0f8f4f2ef6e4bd109810f98638284fb2.png",
+    "image": "https://peretz-group.ru/upload/iblock/0f8/0f8f4f2ef6e4bd109810f98638284fb2.png",
+    "sort": 500
+  },
+  {
+    "id": 814,
+    "date": "27.04.2020 16:02:29",
+    "name": "Гнездо",
+    "description": "Филе куриное, ветчина индейки, язык говяжий, лист салата, сыр пармезан, картофель пай, яйца перепелиные, огурцы свежие и маринованные\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 343,
+    "image_app": "https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png",
+    "image": "https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png",
+    "sort": 500
+  }
 ]
+
