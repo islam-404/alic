@@ -1,44 +1,120 @@
 [
-    {
-        "title": "Apple AirPods Pro with MagSafe Case (MLWK3RU/A)",
-        "price": "21 499 ₽\n24 999",
-        "ul": "Система активного подавления шума:Да \nРабота от аккумулятора:до 4 ч 30 мин \nМатериал амбушюров:силикон ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50165904b.jpg"
-    },
-    {
-        "title": "Apple AirPods 3-го поколения (MME73RU/A)",
-        "price": "16 499 ₽",
-        "ul": "Использование в качестве гарнитуры:Да \nБрызгозащитный корпус:Да \nВстроенный микрофон:Да ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50163928b.jpg"
-    },
-    {
-        "title": "Apple AirPods w/Charging Case (MV7N2RU/A)",
-        "price": "12 299 ₽",
-        "ul": "Работа от аккумулятора:до 5 часов \nИспользование в качестве гарнитуры:Да \nСенсорная панель управления:Да ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50126638b.jpg"
-    },
-    {
-        "title": "Apple AirPods w/Wireless Charg.Case MRXJ2",
-        "price": "14 999 ₽",
-        "ul": "Работа от аккумулятора:до 5 часов \nИспользование в качестве гарнитуры:Да \nСенсорная панель управления:Да ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50126637b.jpg"
-    },
-    {
-        "title": "Apple AirPods Max Space Gray (MGYH3RU/A)",
-        "price": "48 799 ₽",
-        "ul": "Тип подключения наушников:беспроводной \nСистема активного подавления шума:Да \nРабота от аккумулятора:до 20 часов ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50144332b.jpg"
-    },
-    {
-        "title": "Apple AirPods Max Sky Blue (MGYL3RU/A)",
-        "price": "48 799 ₽",
-        "ul": "Тип подключения наушников:беспроводной \nСистема активного подавления шума:Да \nРабота от аккумулятора:до 20 часов ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50144334b.jpg"
-    },
-    {
-        "title": "Apple AirPods Max Silver (MGYJ3RU/A)",
-        "price": "48 799 ₽",
-        "ul": "Тип подключения наушников:беспроводной \nСистема активного подавления шума:Да \nРабота от аккумулятора:до 20 часов ",
-        "img": "https://img.mvideo.ru/Pdb/small_pic/480/50144333b.jpg"
-    }
+  {
+    "id": 947,
+    "date": "04.05.2020 19:54:02",
+    "name": "Гюзаль",
+    "description": "Баклажан жареный, огурцы свежие, запеченное куриное филе, помидор конкассе, перец цветной, кунжут светлый, соус соевый, соус сливочный",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 278,
+    "image_app": "https://peretz-group.ru/upload/iblock/95a/95a9b7c8759e2598edf03f97d5e0144d.png",
+    "image": "https://peretz-group.ru/upload/iblock/95a/95a9b7c8759e2598edf03f97d5e0144d.png",
+    "sort": 500
+  },
+  {
+    "id": 946,
+    "date": "04.05.2020 19:52:38",
+    "name": "Бону",
+    "description": "Свекла запеченная, огурцы маринованные, яйцо, морковь по-корейски, яблоко зеленое, соус сливочный, картофель",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 278,
+    "image_app": "https://peretz-group.ru/upload/iblock/7b7/7b7730949d7dae871606a2b498bcd117.png",
+    "image": "https://peretz-group.ru/upload/iblock/7b7/7b7730949d7dae871606a2b498bcd117.png",
+    "sort": 500
+  },
+  {
+    "id": 828,
+    "date": "27.04.2020 16:08:32",
+    "name": "Салат с копченой телятиной",
+    "description": "Нежная копченая телятина, яйцо куриное, капуста пикинская, морковь, чеснок, зерна граната, майонез сливочный\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 318,
+    "image_app": "https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png",
+    "image": "https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png",
+    "sort": 500
+  },
+  {
+    "id": 827,
+    "date": "27.04.2020 16:08:04",
+    "name": "Салат с черносливом",
+    "description": "Запеченное куриное филе, чернослив, огурцы свежие, обжаренные шампиньоны, грецкий орех, белок яйцца, сливочный майонез\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 273,
+    "image_app": "https://peretz-group.ru/upload/iblock/cbd/cbd63cf8198fa171c393db4d4e3be2c6.png",
+    "image": "https://peretz-group.ru/upload/iblock/cbd/cbd63cf8198fa171c393db4d4e3be2c6.png",
+    "sort": 500
+  },
+  {
+    "id": 826,
+    "date": "27.04.2020 16:07:45",
+    "name": "Инча",
+    "description": "Запеченное куриное филе, морковь, огурцы свежие, помидор конкассе, яйца перепелиные, капуста китайская, майонез сливочный, картофель пай\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 273,
+    "image_app": "https://peretz-group.ru/upload/iblock/43c/43c2dc959773394760bf753f971872b4.png",
+    "image": "https://peretz-group.ru/upload/iblock/43c/43c2dc959773394760bf753f971872b4.png",
+    "sort": 500
+  },
+  {
+    "id": 825,
+    "date": "27.04.2020 16:07:21",
+    "name": "Цезарь с креветкой",
+    "description": "Креветки тигровые, романо, черри, соус цезарь, сыр пармезан\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 433,
+    "image_app": "https://peretz-group.ru/upload/iblock/796/79630298a542a1a969c026375744fabc.png",
+    "image": "https://peretz-group.ru/upload/iblock/796/79630298a542a1a969c026375744fabc.png",
+    "sort": 500
+  },
+  {
+    "id": 824,
+    "date": "27.04.2020 16:06:55",
+    "name": "Цезарь с курицей",
+    "description": "Филе куриное, романо, черри, соус цезарь, сыр пармезан\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 363,
+    "image_app": "https://peretz-group.ru/upload/iblock/c60/c605eab2a45e86efb74a4bd62996ad02.png",
+    "image": "https://peretz-group.ru/upload/iblock/c60/c605eab2a45e86efb74a4bd62996ad02.png",
+    "sort": 500
+  },
+  {
+    "id": 823,
+    "date": "27.04.2020 16:06:28",
+    "name": "Салат с куриной печенью",
+    "description": "Куриная печень, соус демиглас, руккола, соус пикантный, кунжут обжаренный\n",
+    "new": false,
+    "variations": [
+      
+    ],
+    "price": 303,
+    "image_app": "https://peretz-group.ru/upload/iblock/70a/70acacf0350e23066340c66b218ec98a.png",
+    "image": "https://peretz-group.ru/upload/iblock/70a/70acacf0350e23066340c66b218ec98a.png",
+    "sort": 500
+  },
+  {
+    "id": 822,
+    "date": "27.04.2020 16:06:04",
+    "name": "Острый салат с бараниной",
+    "description": "Обжаренное филе баранины в соусе, деми
+ }
 ]
