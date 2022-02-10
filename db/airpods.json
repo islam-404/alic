@@ -1,227 +1,226 @@
 [
-  {
-    "id": 947,
-    "date": "04.05.2020 19:54:02",
-    "name": "Гюзаль",
-    "description": "Баклажан жареный, огурцы свежие, запеченное куриное филе, помидор конкассе, перец цветной, кунжут светлый, соус соевый, соус сливочный",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 278,
-    "image_app": "https://peretz-group.ru/upload/iblock/95a/95a9b7c8759e2598edf03f97d5e0144d.png",
-    "image": "https://peretz-group.ru/upload/iblock/95a/95a9b7c8759e2598edf03f97d5e0144d.png",
-    "sort": 500
-  },
-  {
-    "id": 946,
-    "date": "04.05.2020 19:52:38",
-    "name": "Бону",
-    "description": "Свекла запеченная, огурцы маринованные, яйцо, морковь по-корейски, яблоко зеленое, соус сливочный, картофель",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 278,
-    "image_app": "https://peretz-group.ru/upload/iblock/7b7/7b7730949d7dae871606a2b498bcd117.png",
-    "image": "https://peretz-group.ru/upload/iblock/7b7/7b7730949d7dae871606a2b498bcd117.png",
-    "sort": 500
-  },
-  {
-    "id": 828,
-    "date": "27.04.2020 16:08:32",
-    "name": "Салат с копченой телятиной",
-    "description": "Нежная копченая телятина, яйцо куриное, капуста пикинская, морковь, чеснок, зерна граната, майонез сливочный\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 318,
-    "image_app": "https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png",
-    "image": "https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png",
-    "sort": 500
-  },
-  {
-    "id": 827,
-    "date": "27.04.2020 16:08:04",
-    "name": "Салат с черносливом",
-    "description": "Запеченное куриное филе, чернослив, огурцы свежие, обжаренные шампиньоны, грецкий орех, белок яйцца, сливочный майонез\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 273,
-    "image_app": "https://peretz-group.ru/upload/iblock/cbd/cbd63cf8198fa171c393db4d4e3be2c6.png",
-    "image": "https://peretz-group.ru/upload/iblock/cbd/cbd63cf8198fa171c393db4d4e3be2c6.png",
-    "sort": 500
-  },
-  {
-    "id": 826,
-    "date": "27.04.2020 16:07:45",
-    "name": "Инча",
-    "description": "Запеченное куриное филе, морковь, огурцы свежие, помидор конкассе, яйца перепелиные, капуста китайская, майонез сливочный, картофель пай\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 273,
-    "image_app": "https://peretz-group.ru/upload/iblock/43c/43c2dc959773394760bf753f971872b4.png",
-    "image": "https://peretz-group.ru/upload/iblock/43c/43c2dc959773394760bf753f971872b4.png",
-    "sort": 500
-  },
-  {
-    "id": 825,
-    "date": "27.04.2020 16:07:21",
-    "name": "Цезарь с креветкой",
-    "description": "Креветки тигровые, романо, черри, соус цезарь, сыр пармезан\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 433,
-    "image_app": "https://peretz-group.ru/upload/iblock/796/79630298a542a1a969c026375744fabc.png",
-    "image": "https://peretz-group.ru/upload/iblock/796/79630298a542a1a969c026375744fabc.png",
-    "sort": 500
-  },
-  {
-    "id": 824,
-    "date": "27.04.2020 16:06:55",
-    "name": "Цезарь с курицей",
-    "description": "Филе куриное, романо, черри, соус цезарь, сыр пармезан\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 363,
-    "image_app": "https://peretz-group.ru/upload/iblock/c60/c605eab2a45e86efb74a4bd62996ad02.png",
-    "image": "https://peretz-group.ru/upload/iblock/c60/c605eab2a45e86efb74a4bd62996ad02.png",
-    "sort": 500
-  },
-  {
-    "id": 823,
-    "date": "27.04.2020 16:06:28",
-    "name": "Салат с куриной печенью",
-    "description": "Куриная печень, соус демиглас, руккола, соус пикантный, кунжут обжаренный\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 303,
-    "image_app": "https://peretz-group.ru/upload/iblock/70a/70acacf0350e23066340c66b218ec98a.png",
-    "image": "https://peretz-group.ru/upload/iblock/70a/70acacf0350e23066340c66b218ec98a.png",
-    "sort": 500
-  },
-  {
-    "id": 822,
-    "date": "27.04.2020 16:06:04",
-    "name": "Острый салат с бараниной",
-    "description": "глас, перец цветной и стручковый,черри, сельдерей, редиска,огурцы свежие, лист салата, соус табаско, масло кунжтное\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 323,
-    "image_app": "https://peretz-group.ru/upload/iblock/4af/4afa231cebfa8c880bde85ebf113ea7d.png",
-    "image": "https://peretz-group.ru/upload/iblock/4af/4afa231cebfa8c880bde85ebf113ea7d.png",
-    "sort": 500
-  },
-  {
-    "id": 821,
-    "date": "27.04.2020 16:05:41",
-    "name": "ЧАБАН салат",
-    "description": "Сыр овечий, редиска, огурцы свежие, сельдерей, лук красный, зеленый, базилик свежий, кинза, перец цветной, помидор розовый\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 323,
-    "image_app": "https://peretz-group.ru/upload/iblock/b44/b441d511f03488fbde223215f4fe1380.png",
-    "image": "https://peretz-group.ru/upload/iblock/b44/b441d511f03488fbde223215f4fe1380.png",
-    "sort": 500
-  },
-  {
-    "id": 819,
-    "date": "27.04.2020 16:04:38",
-    "name": "Салат с сыром Сулугуни",
-    "description": "Сыр сулугуни, куриная грудка, черри, лист романо, черри, соус горчичный\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 303,
-    "image_app": "https://peretz-group.ru/upload/iblock/9db/9dbf408331b74bfd709279278c9f2210.png",
-    "image": "https://peretz-group.ru/upload/iblock/9db/9dbf408331b74bfd709279278c9f2210.png",
-    "sort": 500
-  },
-  {
-    "id": 818,
-    "date": "27.04.2020 16:04:16",
-    "name": "Салат с пикантной курочкой",
-    "description": "Куриная грудка собственного запечения, микс зелени, лист романо, черри, соус горчичный\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 293,
-    "image_app": "https://peretz-group.ru/upload/iblock/769/769e093cf9a2e1ae6ae2d5361e70e651.png",
-    "image": "https://peretz-group.ru/upload/iblock/769/769e093cf9a2e1ae6ae2d5361e70e651.png",
-    "sort": 500
-  },
-  {
-    "id": 817,
-    "date": "27.04.2020 16:03:52",
-    "name": "Салат со свеклой",
-    "description": "Свекла запеченная, микс зелени, сыр моцарелла, чеснок\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 228,
-    "image_app": "https://peretz-group.ru/upload/iblock/6b4/6b48bcfdb3a0154920d0e7376cae621c.png",
-    "image": "https://peretz-group.ru/upload/iblock/6b4/6b48bcfdb3a0154920d0e7376cae621c.png",
-    "sort": 500
-  },
-  {
-    "id": 816,
-    "date": "27.04.2020 16:03:23",
-    "name": "Салат с бакинсикими помидорами",
-    "description": "Черри, лук красный сладкий, сыр брынза, микс зелени, соус наршараб\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 273,
-    "image_app": "https://peretz-group.ru/upload/iblock/6ba/6ba655846e79892e320499d9a9b4ec87.png",
-    "image": "https://peretz-group.ru/upload/iblock/6ba/6ba655846e79892e320499d9a9b4ec87.png",
-    "sort": 500
-  },
-  {
-    "id": 815,
-    "date": "27.04.2020 16:03:02",
-    "name": "Гурия",
-    "description": "Телятина копченая, филе куриное, помидоры конкассе, огурцы свежие, перец цветной, лук зеленый\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 273,
-    "image_app": "https://peretz-group.ru/upload/iblock/0f8/0f8f4f2ef6e4bd109810f98638284fb2.png",
-    "image": "https://peretz-group.ru/upload/iblock/0f8/0f8f4f2ef6e4bd109810f98638284fb2.png",
-    "sort": 500
-  },
-  {
-    "id": 814,
-    "date": "27.04.2020 16:02:29",
-    "name": "Гнездо",
-    "description": "Филе куриное, ветчина индейки, язык говяжий, лист салата, сыр пармезан, картофель пай, яйца перепелиные, огурцы свежие и маринованные\n",
-    "new": false,
-    "variations": [
-      
-    ],
-    "price": 343,
-    "image_app": "https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png",
-    "image": "https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png",
-    "sort": 500
-  }
+    {
+        "id":947,
+        "date":"04.05.2020 19:54:02",
+        "name":"Гюзаль",
+        "description":"Баклажан жареный, огурцы свежие, запеченное куриное филе, помидор конкассе, перец цветной, кунжут светлый, соус соевый, соус сливочный",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":278,
+        "image_app":"https://peretz-group.ru/upload/iblock/95a/95a9b7c8759e2598edf03f97d5e0144d.png",
+        "image":"https://peretz-group.ru/upload/iblock/95a/95a9b7c8759e2598edf03f97d5e0144d.png",
+        "sort":500
+    },
+    {
+        "id":946,
+        "date":"04.05.2020 19:52:38",
+        "name":"Бону",
+        "description":"Свекла запеченная, огурцы маринованные, яйцо, морковь по-корейски, яблоко зеленое, соус сливочный, картофель",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":278,
+        "image_app":"https://peretz-group.ru/upload/iblock/7b7/7b7730949d7dae871606a2b498bcd117.png",
+        "image":"https://peretz-group.ru/upload/iblock/7b7/7b7730949d7dae871606a2b498bcd117.png",
+        "sort":500
+    },
+    {
+        "id":828,
+        "date":"27.04.2020 16:08:32",
+        "name":"Салат с копченой телятиной",
+        "description":"Нежная копченая телятина, яйцо куриное, капуста пикинская, морковь, чеснок, зерна граната, майонез сливочный\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":318,
+        "image_app":"https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png",
+        "image":"https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png",
+        "sort":500
+    },
+    {
+        "id":827,
+        "date":"27.04.2020 16:08:04",
+        "name":"Салат с черносливом",
+        "description":"Запеченное куриное филе, чернослив, огурцы свежие, обжаренные шампиньоны, грецкий орех, белок яйцца, сливочный майонез\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":273,
+        "image_app":"https://peretz-group.ru/upload/iblock/cbd/cbd63cf8198fa171c393db4d4e3be2c6.png",
+        "image":"https://peretz-group.ru/upload/iblock/cbd/cbd63cf8198fa171c393db4d4e3be2c6.png",
+        "sort":500
+    },
+    {
+        "id":826,
+        "date":"27.04.2020 16:07:45",
+        "name":"Инча",
+        "description":"Запеченное куриное филе, морковь, огурцы свежие, помидор конкассе, яйца перепелиные, капуста китайская, майонез сливочный, картофель пай\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":273,
+        "image_app":"https://peretz-group.ru/upload/iblock/43c/43c2dc959773394760bf753f971872b4.png",
+        "image":"https://peretz-group.ru/upload/iblock/43c/43c2dc959773394760bf753f971872b4.png",
+        "sort":500
+    },
+    {
+        "id":825,
+        "date":"27.04.2020 16:07:21",
+        "name":"Цезарь с креветкой",
+        "description":"Креветки тигровые, романо, черри, соус цезарь, сыр пармезан\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":433,
+        "image_app":"https://peretz-group.ru/upload/iblock/796/79630298a542a1a969c026375744fabc.png",
+        "image":"https://peretz-group.ru/upload/iblock/796/79630298a542a1a969c026375744fabc.png",
+        "sort":500
+    },
+    {
+        "id":824,
+        "date":"27.04.2020 16:06:55",
+        "name":"Цезарь с курицей",
+        "description":"Филе куриное, романо, черри, соус цезарь, сыр пармезан\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":363,
+        "image_app":"https://peretz-group.ru/upload/iblock/c60/c605eab2a45e86efb74a4bd62996ad02.png",
+        "image":"https://peretz-group.ru/upload/iblock/c60/c605eab2a45e86efb74a4bd62996ad02.png",
+        "sort":500
+    },
+    {
+        "id":823,
+        "date":"27.04.2020 16:06:28",
+        "name":"Салат с куриной печенью",
+        "description":"Куриная печень, соус демиглас, руккола, соус пикантный, кунжут обжаренный\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":303,
+        "image_app":"https://peretz-group.ru/upload/iblock/70a/70acacf0350e23066340c66b218ec98a.png",
+        "image":"https://peretz-group.ru/upload/iblock/70a/70acacf0350e23066340c66b218ec98a.png",
+        "sort":500
+    },
+    {
+        "id":822,
+        "date":"27.04.2020 16:06:04",
+        "name":"Острый салат с бараниной",
+        "description":"Обжаренное филе баранины в соусе, демиглас, перец цветной и стручковый,черри, сельдерей, редиска,огурцы свежие, лист салата, соус табаско, масло кунжтное\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":323,
+        "image_app":"https://peretz-group.ru/upload/iblock/4af/4afa231cebfa8c880bde85ebf113ea7d.png",
+        "image":"https://peretz-group.ru/upload/iblock/4af/4afa231cebfa8c880bde85ebf113ea7d.png",
+        "sort":500
+    },
+    {
+        "id":821,
+        "date":"27.04.2020 16:05:41",
+        "name":"ЧАБАН салат",
+        "description":"Сыр овечий, редиска, огурцы свежие, сельдерей, лук красный, зеленый, базилик свежий, кинза, перец цветной, помидор розовый\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":323,
+        "image_app":"https://peretz-group.ru/upload/iblock/b44/b441d511f03488fbde223215f4fe1380.png",
+        "image":"https://peretz-group.ru/upload/iblock/b44/b441d511f03488fbde223215f4fe1380.png",
+        "sort":500
+    },
+    {
+        "id":819,
+        "date":"27.04.2020 16:04:38",
+        "name":"Салат с сыром Сулугуни",
+        "description":"Сыр сулугуни, куриная грудка, черри, лист романо, черри, соус горчичный\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":303,
+        "image_app":"https://peretz-group.ru/upload/iblock/9db/9dbf408331b74bfd709279278c9f2210.png",
+        "image":"https://peretz-group.ru/upload/iblock/9db/9dbf408331b74bfd709279278c9f2210.png",
+        "sort":500
+    },
+    {
+        "id":818,
+        "date":"27.04.2020 16:04:16",
+        "name":"Салат с пикантной курочкой",
+        "description":"Куриная грудка собственного запечения, микс зелени, лист романо, черри, соус горчичный\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":293,
+        "image_app":"https://peretz-group.ru/upload/iblock/769/769e093cf9a2e1ae6ae2d5361e70e651.png",
+        "image":"https://peretz-group.ru/upload/iblock/769/769e093cf9a2e1ae6ae2d5361e70e651.png",
+        "sort":500
+    },
+    {
+        "id":817,
+        "date":"27.04.2020 16:03:52",
+        "name":"Салат со свеклой",
+        "description":"Свекла запеченная, микс зелени, сыр моцарелла, чеснок\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":228,
+        "image_app":"https://peretz-group.ru/upload/iblock/6b4/6b48bcfdb3a0154920d0e7376cae621c.png",
+        "image":"https://peretz-group.ru/upload/iblock/6b4/6b48bcfdb3a0154920d0e7376cae621c.png",
+        "sort":500
+    },
+    {
+        "id":816,
+        "date":"27.04.2020 16:03:23",
+        "name":"Салат с бакинсикими помидорами",
+        "description":"Черри, лук красный сладкий, сыр брынза, микс зелени, соус наршараб\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":273,
+        "image_app":"https://peretz-group.ru/upload/iblock/6ba/6ba655846e79892e320499d9a9b4ec87.png",
+        "image":"https://peretz-group.ru/upload/iblock/6ba/6ba655846e79892e320499d9a9b4ec87.png",
+        "sort":500
+    },
+    {
+        "id":815,
+        "date":"27.04.2020 16:03:02",
+        "name":"Гурия",
+        "description":"Телятина копченая, филе куриное, помидоры конкассе, огурцы свежие, перец цветной, лук зеленый\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":273,
+        "image_app":"https://peretz-group.ru/upload/iblock/0f8/0f8f4f2ef6e4bd109810f98638284fb2.png",
+        "image":"https://peretz-group.ru/upload/iblock/0f8/0f8f4f2ef6e4bd109810f98638284fb2.png",
+        "sort":500
+    },
+    {
+        "id":814,
+        "date":"27.04.2020 16:02:29",
+        "name":"Гнездо",
+        "description":"Филе куриное, ветчина индейки, язык говяжий, лист салата, сыр пармезан, картофель пай, яйца перепелиные, огурцы свежие и маринованные\n",
+        "new":false,
+        "variations":[
+            
+        ],
+        "price":343,
+        "image_app":"https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png",
+        "image":"https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png",
+        "sort":500
+    }
 ]
-
