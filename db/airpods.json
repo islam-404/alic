@@ -47,22 +47,6 @@
         }
     ]
 
-    },
-    {
-        "id": "2",
-        "category": ["mobile"],
-        "title": "YINGTAI T11 мобильный телефон для пожилых,Лучшая функция,телефон для пожилых,2,2 дюймов,fm фонарь,скорость,DialSOS,большая кнопка,динамик,клавиатура с русским шрифтом,GSM",
-        "imgMin": "db/img-mini/mobile/YINGTAI-T11-Elder-Cellphone-Best-Feature-Senior-Phone-2-2-Inch-FM-Torch-Speed-DialSOS-Big.jpg_220x220xz.jpg",
-        "imgCart": "db/img-card/mobile/YINGTAI-T11.jpg",
-        "price": 2082.56
-    },
-    {
-        "id": "3",
-        "category": ["mobile"],
-        "title": "YINGTAI T11 мобильный телефон для пожилых,Лучшая функция,телефон для пожилых,2,2 дюймов,fm фонарь,скорость,DialSOS,большая кнопка,динамик,клавиатура с русским шрифтом,GSM",
-        "imgMin": "db/img-mini/mobile/YINGTAI-T11-Elder-Cellphone-Best-Feature-Senior-Phone-2-2-Inch-FM-Torch-Speed-DialSOS-Big.jpg_220x220xz.jpg",
-        "imgCart": "db/img-card/mobile/YINGTAI-T11.jpg",
-        "price": 2082.56
     }
 ]
 }]
